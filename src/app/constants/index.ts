@@ -54,7 +54,7 @@ export const PROJECTS = [
     image: "/project-3.jpg",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["NextJS", "Tailwind CSS", "Typescript", "Bootstrap"],
   },
   {
     title: "Blogging Platform",
