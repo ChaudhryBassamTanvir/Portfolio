@@ -42,22 +42,23 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: "/project-1.jpg",
+    title: "E-Commerce Website (currently working)",
+    image: "/FABe-commerce.PNG",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: [
+      "FAST API",
       "NextJS",
       "Tailwind CSS",
       "Node.js",
       "PostgresSQL",
       "Firebase",
     ],
-    link: "https://your-ecommerce-website-link.com", // Add the actual link here
+    // link: "https://your-ecommerce-website-link.com", // Add the actual link here
   },
   {
     title: "Todo Web",
-    image: "/project-2.jpg",
+    image: "todoweb.PNG",
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking. This was my first full stack project and provided an amazing experience with Next.js using TypeScript, Tailwind CSS, and PostgreSQL.",
     technologies: ["NextJS", "Tailwind CSS", "PostgresSQL"],
@@ -65,7 +66,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: "/project-3.jpg",
+    image: "/portfolioweb.PNG",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["NextJS", "Tailwind CSS", "Typescript", "Framer-Motion"],
@@ -73,35 +74,28 @@ export const PROJECTS = [
   },
   {
     title: "Smart Tools",
-    image: "/project-4.jpg",
+    image: "/smart tools.PNG",
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.A Smart SEO tools plateform. This project was created during my internship using Next.js with TypeScript, Tailwind CSS, and PostgreSQL. I collaborated with Affan Sheikh on this project.",
     technologies: ["NextJS", "TypeScript", "Tailwind CSS", "PostgresSQL"],
-    link: "https://your-smart-tools-link.com", // Add the actual link here
+    // link: "https://your-smart-tools-link.com", // Add the actual link here
   },
   {
-    title: "Cragis",
-    image: "/project-5.jpg",
+    title: "FISTA Business directory",
+    image: "/fista.PNG",
     description:
       "A project completed at FISTA Solutions in collaboration with Affan Sheikh. Developed using Next.js with TypeScript, Tailwind CSS, and PostgreSQL.",
     technologies: ["NextJS", "TypeScript", "Tailwind CSS", "PostgresSQL"],
-    link: "https://your-cragis-project-link.com", // Add the actual link here
+    // link: "https://your-cragis-project-link.com", // Add the actual link here
   },
-  {
-    title: "E-Commerce Assignment",
-    image: "/project-6.jpg",
-    description:
-      "A full working e-commerce website assignment using FastAPI. Features include product management, user authentication, and payment integration.",
-    technologies: ["FastAPI", "PostgresSQL", "Tailwind CSS"],
-    link: "https://your-ecommerce-assignment-link.com", // Add the actual link here
-  },
+
   {
     title: "WebMD Clone",
-    image: "/project-7.jpg",
+    image: "/webmd.PNG",
     description:
       "A cloned version of WebMD, developed during my internship using Next.js with TypeScript, Tailwind CSS, and PostgreSQL. Focused on replicating key features and functionality.",
     technologies: ["NextJS", "TypeScript", "Tailwind CSS", "PostgresSQL"],
-    link: "https://your-webmd-clone-link.com", // Add the actual link here
+    // link: "https://your-webmd-clone-link.com", // Add the actual link here
   },
 ];
 

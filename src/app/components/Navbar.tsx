@@ -8,6 +8,7 @@ import {
   FaBars,
   FaTimes,
 } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,27 +30,27 @@ const Navbar = () => {
 
       {/* Icons in a row on larger screens */}
       <div className="hidden lg:flex md:flex  items-center gap-4">
-        <a href="">
+        <a href="#">
           <FaLinkedin
             size={24}
             className="text-purple-800 cursor-pointer hover:text-purple-600 transition-colors duration-300 ease-in-out"
           />
         </a>
-        <a href="">
+        <a href="https://github.com/ChaudhryBassamTanvir">
           <FaGithub
             size={24}
             className="text-purple-800 cursor-pointer hover:text-purple-600 transition-colors duration-300 ease-in-out"
           />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/chbassamtanvir/">
           {" "}
           <FaInstagram
             size={24}
             className="text-purple-800 cursor-pointer hover:text-purple-600 transition-colors duration-300 ease-in-out"
           />
         </a>
-        <a href="">
-          <FaFacebookSquare
+        <a href="https://mail.google.com/mail/u/0/#inbox">
+          <SiGmail
             size={24}
             className="text-purple-800 cursor-pointer hover:text-purple-600 transition-colors duration-300 ease-in-out"
           />
@@ -86,7 +87,7 @@ const Navbar = () => {
           {/* Navbar links */}
           <div className="flex flex-col gap-4 w-full md:flex-row md:items-center">
             <a
-              href="https://www.linkedin.com"
+              href="#"
               className="flex items-center text-gray-700 text-left w-full md:w-auto transform transition-transform duration-300 ease-in-out hover:scale-105"
             >
               <FaLinkedin
@@ -98,7 +99,7 @@ const Navbar = () => {
               </span>
             </a>
             <a
-              href="https://www.github.com"
+              href="https://github.com/ChaudhryBassamTanvir"
               className="flex items-center text-gray-700 text-left w-full md:w-auto transform transition-transform duration-300 ease-in-out hover:scale-105"
             >
               <FaGithub
@@ -110,7 +111,7 @@ const Navbar = () => {
               </span>
             </a>
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/chbassamtanvir/"
               className="flex items-center text-gray-700 text-left w-full md:w-auto transform transition-transform duration-300 ease-in-out hover:scale-105"
             >
               <FaInstagram
@@ -122,10 +123,10 @@ const Navbar = () => {
               </span>
             </a>
             <a
-              href="https://www.facebook.com"
+              href="https://mail.google.com/mail/u/0/#inbox"
               className="flex items-center text-gray-700 text-left w-full md:w-auto transform transition-transform duration-300 ease-in-out hover:scale-105"
             >
-              <FaFacebookSquare
+              <SiGmail
                 size={24}
                 className="mr-2 text-purple-800 transition-colors duration-300 ease-in-out hover:text-purple-600"
               />

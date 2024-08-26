@@ -9,26 +9,24 @@ const About = () => {
     <div className="border-b border-neutral-900 pb-4">
       <h1 className="my-20 text-center text-4xl ">
         About
-        <span className="text-neutral-500"> Me</span>{" "}
+        <span className="text-neutral-500"> Me</span>
       </h1>
       <div className="flex flex-wrap">
         <motion.div
-          initial={{ opacity: 0, x: -100 }}
+          initial={{ opacity: 0, x: -150 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }} // Ensure the animation triggers only once when in view
+          transition={{ duration: 0.5, delay: 0.2 }}
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src="/./assets/about.jpg" alt="" />
+            <img className="rounded-2xl" src="/aboutpic.jpg" alt="About Me" />
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, x: 100 }}
+          initial={{ opacity: 0, x: 150 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }} // Ensure the animation triggers only once when in view
-          className="w-full lg:w-1/2 "
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
             <p className="pt-32 my-2 max-w-xl">{ABOUT_TEXT}</p>
