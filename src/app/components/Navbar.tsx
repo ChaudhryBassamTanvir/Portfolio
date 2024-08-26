@@ -9,7 +9,7 @@ import {
   FaTimes,
 } from "react-icons/fa";
 
-const Navbar: React.FC = () => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -22,29 +22,38 @@ const Navbar: React.FC = () => {
         <div className="text-2xl font-thin">
           وَمَا تَوۡفِيقِيٓ إِلَّا بِٱللَّهِۚ <br />
           <span className="text-sm font-thin">
-            "And my success is only by Allah <b>(11:88)</b>"
+            &quot; And my success is only by Allah <b>(11:88)</b> &quot;
           </span>
         </div>
       </div>
 
       {/* Icons in a row on larger screens */}
-      <div className="hidden lg:flex md:flex items-center gap-4">
-        <FaLinkedin
-          size={24}
-          className="text-purple-800 hover:text-purple-600 transition-colors duration-300 ease-in-out"
-        />
-        <FaGithub
-          size={24}
-          className="text-purple-800 hover:text-purple-600 transition-colors duration-300 ease-in-out"
-        />
-        <FaInstagram
-          size={24}
-          className="text-purple-800 hover:text-purple-600 transition-colors duration-300 ease-in-out"
-        />
-        <FaFacebookSquare
-          size={24}
-          className="text-purple-800 hover:text-purple-600 transition-colors duration-300 ease-in-out"
-        />
+      <div className="hidden lg:flex md:flex  items-center gap-4">
+        <a href="">
+          <FaLinkedin
+            size={24}
+            className="text-purple-800 cursor-pointer hover:text-purple-600 transition-colors duration-300 ease-in-out"
+          />
+        </a>
+        <a href="">
+          <FaGithub
+            size={24}
+            className="text-purple-800 cursor-pointer hover:text-purple-600 transition-colors duration-300 ease-in-out"
+          />
+        </a>
+        <a href="">
+          {" "}
+          <FaInstagram
+            size={24}
+            className="text-purple-800 cursor-pointer hover:text-purple-600 transition-colors duration-300 ease-in-out"
+          />
+        </a>
+        <a href="">
+          <FaFacebookSquare
+            size={24}
+            className="text-purple-800 cursor-pointer hover:text-purple-600 transition-colors duration-300 ease-in-out"
+          />
+        </a>
       </div>
 
       {/* Hamburger icon only for small screens */}

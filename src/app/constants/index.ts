@@ -1,37 +1,43 @@
-import project1 from "../src/assets/projects/project-1.jpg";
-import project2 from "../src/assets/projects/project-2.jpg";
-import project3 from "../src/assets/projects/project-3.jpg";
-import project4 from "/project-4.jpg";
-
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - Present",
+    role: " Full Stack Developer",
+    company: "FISTA SOLUTIONS",
+    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js during my internship at FISTA Solutions. Utilized Next.js with TypeScript for robust front-end development and Tailwind CSS for styling. Implemented RESTful APIs and integrated with both MongoDB and PostgreSQL databases. Collaborated with stakeholders to define project requirements and timelines.
+`,
+    technologies: ["Next.js", "Typescript", "Tailwind CSS", "PostgresSQL"],
   },
   {
     year: "2022 - 2023",
     role: "Frontend Developer",
-    company: "Adobe",
+    company: "LaTech",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    technologies: ["Nextjs", "Tailwind CSS", "Postgres SQL", "mySQL"],
   },
   {
     year: "2021 - 2022",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "PIAIC Institute",
+    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule. In 2022, I enhanced my skills by enrolling in a course at PIAIC Institute, where I learned Next.js and TypeScript. The course also covered FastAPI and DevOps, and currently, I am being prepared for emerging technologies, including Large Language Models (LLMs).`,
+    technologies: [
+      "Next.js",
+      "React.js",
+      "Node.js",
+
+      "TypeScript",
+      "FastAPI",
+      "DevOps",
+      "LLMs",
+    ],
   },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+
+  // {
+  //   year: "2020 - 2021",
+  //   role: "Software Engineer",
+  //   company: "Paypal",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  // },
 ];
 
 export const PROJECTS = [
@@ -40,33 +46,67 @@ export const PROJECTS = [
     image: "/project-1.jpg",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: [
+      "NextJS",
+      "Tailwind CSS",
+      "Node.js",
+      "PostgresSQL",
+      "Firebase",
+    ],
+    link: "https://your-ecommerce-website-link.com", // Add the actual link here
   },
   {
-    title: "Task Management App",
+    title: "Todo Web",
     image: "/project-2.jpg",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking. This was my first full stack project and provided an amazing experience with Next.js using TypeScript, Tailwind CSS, and PostgreSQL.",
+    technologies: ["NextJS", "Tailwind CSS", "PostgresSQL"],
+    link: "https://your-todo-web-link.com", // Add the actual link here
   },
   {
     title: "Portfolio Website",
     image: "/project-3.jpg",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["NextJS", "Tailwind CSS", "Typescript", "Bootstrap"],
+    technologies: ["NextJS", "Tailwind CSS", "Typescript", "Framer-Motion"],
+    link: "https://your-portfolio-website-link.com", // Add the actual link here
   },
   {
-    title: "Blogging Platform",
+    title: "Smart Tools",
     image: "/project-4.jpg",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.A Smart SEO tools plateform. This project was created during my internship using Next.js with TypeScript, Tailwind CSS, and PostgreSQL. I collaborated with Affan Sheikh on this project.",
+    technologies: ["NextJS", "TypeScript", "Tailwind CSS", "PostgresSQL"],
+    link: "https://your-smart-tools-link.com", // Add the actual link here
+  },
+  {
+    title: "Cragis",
+    image: "/project-5.jpg",
+    description:
+      "A project completed at FISTA Solutions in collaboration with Affan Sheikh. Developed using Next.js with TypeScript, Tailwind CSS, and PostgreSQL.",
+    technologies: ["NextJS", "TypeScript", "Tailwind CSS", "PostgresSQL"],
+    link: "https://your-cragis-project-link.com", // Add the actual link here
+  },
+  {
+    title: "E-Commerce Assignment",
+    image: "/project-6.jpg",
+    description:
+      "A full working e-commerce website assignment using FastAPI. Features include product management, user authentication, and payment integration.",
+    technologies: ["FastAPI", "PostgresSQL", "Tailwind CSS"],
+    link: "https://your-ecommerce-assignment-link.com", // Add the actual link here
+  },
+  {
+    title: "WebMD Clone",
+    image: "/project-7.jpg",
+    description:
+      "A cloned version of WebMD, developed during my internship using Next.js with TypeScript, Tailwind CSS, and PostgreSQL. Focused on replicating key features and functionality.",
+    technologies: ["NextJS", "TypeScript", "Tailwind CSS", "PostgresSQL"],
+    link: "https://your-webmd-clone-link.com", // Add the actual link here
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Faisalabad, PAKISTAN ",
+  phoneNo: "+92 325 0367089 ",
+  email: "chbassamtanvir@gmail.com",
 };

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
@@ -38,6 +39,7 @@ const Projects = () => {
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
+              <p className="mb-4 text-neutral-400">{project.link}</p>
 
               {project.technologies.map((tech, index) => (
                 <span
