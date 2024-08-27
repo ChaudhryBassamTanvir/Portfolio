@@ -2,6 +2,7 @@
 import React from "react";
 import { EXPERIENCES } from "../constants";
 import { motion } from "framer-motion";
+
 const Experience = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -38,14 +39,16 @@ const Experience = () => {
               </h6>
               <p className="mb-4 text-neutral-400">{experience.description}</p>
 
-              {experience.technologies.map((tech: any, index: any) => (
-                <span
-                  key={index}
-                  className="mr-2 mt-4 rounded bg-neutral-900 py-1 text-purple-800"
-                >
-                  {tech}
-                </span>
-              ))}
+              <div className="flex flex-wrap gap-1">
+                {experience.technologies.map((tech: any, index: any) => (
+                  <span
+                    key={index}
+                    className="m-1 mt-4 rounded bg-neutral-900 py-1 px-2 text-purple-800 break-words"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </motion.div>
           </div>
         ))}

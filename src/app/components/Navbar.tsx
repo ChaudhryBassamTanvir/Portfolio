@@ -131,7 +131,7 @@ const Navbar = () => {
                 className="mr-2 text-purple-800 transition-colors duration-300 ease-in-out hover:text-purple-600"
               />
               <span className="text-sm md:hidden transition-colors duration-300 ease-in-out hover:text-purple-600">
-                Facebook
+                G-mail
               </span>
             </a>
           </div>

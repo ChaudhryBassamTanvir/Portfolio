@@ -2,6 +2,7 @@
 import React from "react";
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -39,15 +40,25 @@ const Projects = () => {
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
-              <p className="mb-4 text-neutral-400">{project.link}</p>
+
+              {project.link && (
+                <Link
+                  href={project.link}
+                  className="mb-4 cursor-pointer text-neutral-400"
+                >
+                  <span className="mr-2">Visit Project:</span> {project.link}
+                </Link>
+              )}
 
               {project.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 px-2 py-1 text-purple-900 text-sm font-medium rounded bg-neutral-900"
-                >
-                  {tech}
-                </span>
+                <div className="m-1">
+                  <span
+                    key={index}
+                    className="mr-2 m-2  px-2 py-1 text-purple-900 text-sm font-medium rounded bg-neutral-900"
+                  >
+                    {tech}
+                  </span>
+                </div>
               ))}
             </motion.div>
           </div>

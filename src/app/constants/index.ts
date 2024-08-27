@@ -62,7 +62,7 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking. This was my first full stack project and provided an amazing experience with Next.js using TypeScript, Tailwind CSS, and PostgreSQL.",
     technologies: ["NextJS", "Tailwind CSS", "PostgresSQL"],
-    link: "https://your-todo-web-link.com", // Add the actual link here
+    // link: "https://your-todo-web-link.com", // Add the actual link here
   },
   {
     title: "Portfolio Website",
@@ -70,7 +70,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["NextJS", "Tailwind CSS", "Typescript", "Framer-Motion"],
-    link: "https://your-portfolio-website-link.com", // Add the actual link here
+    link: "portfolio-rust-six-50.vercel.app", // Add the actual link here
   },
   {
     title: "Smart Tools",
