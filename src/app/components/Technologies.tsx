@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { RiReactjsLine } from "react-icons/ri";
+import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb, SiTypescript } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -93,6 +93,15 @@ const Technologies = () => {
           className="p-4 border-4 border-neutral-500 rounded-2xl"
         >
           <SiTypescript className="text-7xl text-blue-700" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariant(4)}
+          initial="initial"
+          animate="animate"
+          className="p-4 border-4 border-neutral-500 rounded-2xl"
+        >
+          <RiTailwindCssFill className="text-7xl text-blue-700" />
         </motion.div>
       </motion.div>
     </div>

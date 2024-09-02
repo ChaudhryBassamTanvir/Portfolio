@@ -49,14 +49,15 @@ const Projects = () => {
                   <span className="mr-2">Visit Project:</span> {project.link}
                 </Link>
               )}
-
-              {project.technologies.map((tech, index) => (
-                <div key={index} className="m-1">
-                  <span className="mr-2 m-2  px-2 py-1 text-purple-900 text-sm font-medium rounded bg-neutral-900">
-                    {tech}
-                  </span>
-                </div>
-              ))}
+              <div className="flex flex-wrap gap-1">
+                {project.technologies.map((tech, index) => (
+                  <div key={index} className="m-1">
+                    <span className="mr-2 m-2  px-2 py-1 text-purple-900 text-sm font-medium rounded bg-neutral-900">
+                      {tech}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </motion.div>
           </div>
         ))}
