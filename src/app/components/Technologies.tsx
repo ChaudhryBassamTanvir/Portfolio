@@ -96,15 +96,14 @@ const Technologies = () => {
         >
           <RiTailwindCssFill className="text-7xl text-blue-700" />
         </motion.div>
-      </motion.div>
-
-      <motion.div
-        variants={iconVariant(6)}
-        initial="initial"
-        animate="animate"
-        className="p-4 border-4 border-neutral-500 rounded-2xl"
-      >
-        <FaJava className="text-7xl text-amber-700" />
+        <motion.div
+          variants={iconVariant(6)}
+          initial="initial"
+          animate="animate"
+          className="p-4 border-4 border-neutral-500 rounded-2xl"
+        >
+          <FaJava className="text-7xl text-amber-700" />
+        </motion.div>
       </motion.div>
     </div>
   );

@@ -7,6 +7,7 @@ import {
   FaFacebookSquare,
   FaBars,
   FaTimes,
+  FaDiscord,
 } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
@@ -51,6 +52,12 @@ const Navbar = () => {
         </a>
         <a href="https://mail.google.com/mail/u/0/#inbox">
           <SiGmail
+            size={24}
+            className="text-purple-800 cursor-pointer hover:text-purple-600 transition-colors duration-300 ease-in-out"
+          />
+        </a>
+        <a href="https://discord.gg/82W5hmVK">
+          <FaDiscord
             size={24}
             className="text-purple-800 cursor-pointer hover:text-purple-600 transition-colors duration-300 ease-in-out"
           />
@@ -132,6 +139,18 @@ const Navbar = () => {
               />
               <span className="text-sm md:hidden transition-colors duration-300 ease-in-out hover:text-purple-600">
                 G-mail
+              </span>
+            </a>
+            <a
+              href="https://discord.gg/82W5hmVK"
+              className="flex items-center text-gray-700 text-left w-full md:w-auto transform transition-transform duration-300 ease-in-out hover:scale-105"
+            >
+              <FaDiscord
+                size={24}
+                className="mr-2 text-purple-800 transition-colors duration-300 ease-in-out hover:text-purple-600"
+              />
+              <span className="text-sm md:hidden transition-colors duration-300 ease-in-out hover:text-purple-600">
+                Discord
               </span>
             </a>
           </div>
